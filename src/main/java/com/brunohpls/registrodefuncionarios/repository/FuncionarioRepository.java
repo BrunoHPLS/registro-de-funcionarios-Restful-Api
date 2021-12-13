@@ -12,6 +12,5 @@ public interface FuncionarioRepository extends JpaRepository<Funcionario,Long> {
 
     @Query("select distinct f.profissao from Funcionario f")
     List<String> listProfissao();
-
-    Funcionario findById(long id);
+    
 }

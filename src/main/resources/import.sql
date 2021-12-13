@@ -1,1 +1,15 @@
-insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Ronaldo','234587243',3000,'2000-01-01','2021-05-02','DESENVOLVEDOR');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Ronaldo','234587243',3500,'2000-01-01','2021-05-02','DESENVOLVEDOR');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Rivaldo','7856785678',4000,'2001-01-01','2021-05-20','DESENVOLVEDOR');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Eduardo','348272349',3500,'1990-01-01','2021-05-20','ANALISTA');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Maria','230983489',4500,'2000-01-01','2021-05-20','DESENVOLVEDOR');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Nicole','509432840',5000,'1985-01-01','2021-05-20','COORDENADOR');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Mateus','0389478345',3700,'2000-01-01','2021-05-20','DESENVOLVEDOR');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Paulo','546432185',3000,'2000-01-01','2021-05-20','DESENVOLVEDOR');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Pedro','055641845',5200,'1992-01-01','2021-05-20','COORDENADOR');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Amanda','357080560',4000,'2000-01-01','2021-05-20','DESENVOLVEDOR');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Robson','062156152',6250,'1980-01-01','2021-05-20','DIRETOR');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Bruna','358764605',12000,'1991-01-01','2021-05-20','CEO');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Vinicius','065065406',10500,'1989-01-01','2021-05-20','CEO');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Manuela','165150891',7000,'1982-01-01','2021-05-20','ARQUITETO');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Thiago','098568760',4250,'1998-01-01','2021-05-20','DESENVOLVEDOR');
+insert into Funcionarios (nome,cpf,salario,data_nascimento,data_admissao,profissao) values ('Marcos','218006546',3700,'1995-01-01','2021-05-20','ANALISTA');

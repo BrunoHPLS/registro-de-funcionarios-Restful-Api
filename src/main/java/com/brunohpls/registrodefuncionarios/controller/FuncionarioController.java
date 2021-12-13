@@ -29,12 +29,12 @@ public class FuncionarioController {
         return new ResponseEntity<>(funcionario,status);
     }
 
-    @GetMapping("/profissao")
+    @GetMapping("/profissoes")
     public ResponseEntity<List<String>> listProfissoes(){
         return new ResponseEntity<>(funcionarios.listProfissao(),HttpStatus.OK);
     }
 
-    @GetMapping("/profissao/{profissao}")
+    @GetMapping("/profissoes/{profissao}")
     public ResponseEntity<List<Funcionario>> listFuncionaiosByProfissao(@PathVariable String profissao){
         List<Funcionario> funcionario = funcionarios.findByProfissao(profissao.toUpperCase());
         HttpStatus status = (funcionario.isEmpty()) ? HttpStatus.BAD_REQUEST : HttpStatus.OK;
@@ -56,7 +56,7 @@ public class FuncionarioController {
             alterado.get().setDataNascimento(funcionario.getDataNascimento());
             alterado.get().setDataAdmissao(funcionario.getDataAdmissao());
             alterado.get().setSalario(funcionario.getSalario());
-            alterado.get().setProfissao(funcionario.getProfissao());
+            alterado.get().setProfissao(funcionario.getProfissao().toUpperCase());
             funcionarios.save(alterado.get());
         }else{
             funcionario = null;
